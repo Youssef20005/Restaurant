@@ -1,0 +1,162 @@
+:root{
+    --main-color:#707576;
+}
+.home{
+    background-image: url("../imgs/bg_3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+p,h2{
+     font-family: 'Raleway', sans-serif;
+    color: var(--main-color);
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    
+}
+h2{
+    font-size: 1.40rem;
+}
+h4{
+  color: #d4d4d4;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.btn-reservation{
+  --bs-btn-padding-x: 3.125rem;
+  --bs-btn-padding-y: .75rem;
+  --bs-btn-font-family:'Playfair Display', sans-serif;
+  --bs-btn-font-size: 1rem;
+  --bs-btn-font-weight: 400;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: #fff;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #fff;
+    border-radius: 0;
+  
+}
+.btn-learn{
+  --bs-btn-padding-x: 3.125rem;
+  --bs-btn-padding-y: .75rem;
+  --bs-btn-font-family:'Playfair Display', sans-serif;
+  --bs-btn-font-size: 1rem;
+  --bs-btn-font-weight: 400;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-color: var(--main-color);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color:var(--main-color);
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg:#FDA403 ;
+  --bs-btn-hover-border-color: #FDA403;
+    border-radius: 0;
+  
+}
+.navbar-default {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0 30px;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    z-index: 99;
+}
+.nav-link{
+    color: RGBA(255, 255, 255, 0.75);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    padding: .75rem;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+  .nav-link:hover, .nav-link:focus {
+    color: white;
+  }
+  .navbar-brand {
+  
+    font-family: 'Raleway', sans-serif;
+  }
+  .col-sm-12{
+    padding-top: 1.25rem;
+  }
+  .news h2,
+  .gallary h2,
+  .contact h2,
+  .menu h2{
+    font-family:'Playfair Display', sans-serif;
+    font-size: 3.5rem;
+  }
+  .btn-read
+  ,.btn-send{
+    --bs-btn-padding-x: 3.125rem;
+    --bs-btn-padding-y: .75rem;
+    --bs-btn-font-family:'Playfair Display', sans-serif;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5;
+    --bs-btn-color: white;
+    --bs-btn-bg: #FDA403;
+    --bs-btn-border-color:transparent;
+    --bs-btn-hover-color:#ffffff;
+    --bs-btn-hover-bg: #da8f04 ;
+    --bs-btn-hover-border-color: transparent;
+      border-radius: 0;
+  }
+  h5{
+    font-size: 1.5rem;
+    font-family:'Playfair Display', sans-serif ;
+  }
+  .gallary .col-md-4:hover img{
+    cursor:zoom-in;
+  }
+  .form-control{
+    background: #e6e6e6;
+    
+  }
+  .form-control:focus {
+box-shadow: none;
+outline: 0;
+border-color: #e6e6e6;
+background-color: #e6e6e6;
+  }
+.content{
+  margin-bottom: 1.875rem;
+}
+@media (min-width: 657px) {
+  .contact .contact-img{
+margin-top: 1.25rem;
+  }
+}
+@media (max-width: 657px) {
+  .contact .contact-img{
+margin-top: 1.25rem;
+  }
+}
+.list-unstyled li a{
+  text-decoration: none;
+  color:var(--main-color);
+}
+.list-unstyled li:hover a{
+  color: #FDA403;
+}
+.info h2{
+  font-family:'Playfair Display', sans-serif ;
+  color: #fff;
+}
+.menu .nav-link{
+  color: #000;
+}
+.nav-pills .nav-link.active{
+  color: var(--main-color);
+  background-color: transparent;
+  border: .0625rem solid #000;
+}
